@@ -1,0 +1,199 @@
+footer {
+  width: 100%;
+  height: 550px;
+  background-color: #111111;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+.footer-box {
+  width: 100%;
+  height: 90%;
+}
+
+.kutu {
+  width: 100%;
+  height: 490px;
+  border-bottom: solid 1px #7f7f7f;
+}
+.linkler {
+  width: 90%;
+  height: 90%;
+  margin: 3%;
+}
+
+h6 {
+  display: flex;
+  justify-content: start;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  margin-left: 10%;
+}
+.footers-content {
+  margin-top: 20px;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.825rem;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li:hover {
+  text-decoration: underline;
+}
+
+.font-bold {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 25px;
+  border-bottom: solid 1px #7f7f7f;
+}
+.footer-title-box {
+  border-bottom: solid 1px #7f7f7f;
+  object-fit: cover;
+  width: 100%;
+  height: 40px;
+}
+.footer-title-box img {
+  object-fit: cover;
+  width: 90%;
+}
+.footer-social-media {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.social-media-title {
+  width: 100%;
+  height: 30%;
+}
+.social-media-title p {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.social-media-links {
+  width: 100%;
+  height: 70%;
+}
+.social-content {
+  object-fit: cover;
+  width: 100%;
+}
+.social-media-links .col-2 {
+  width: 35px;
+  height: 30px;
+  border: solid 1px black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.social-media-links .col-2 a {
+  text-decoration: none;
+  color: black;
+}
+.social-media-links .col-2:hover {
+  background-color: #c3c3c3;
+}
+
+.social-media-links .col-2 a i {
+  margin-left: -4px;
+  margin-top: 4px;
+}
+.footer-apk {
+  margin-top: 10%;
+}
+.apk-content {
+  display: flex;
+  gap: 20px;
+}
+.apk-content .apk-box:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.footer-qr {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr-box {
+  width: 50%;
+}
+.qr-box2 {
+  width: 50%;
+  border: 1px solid #68b631;
+  color: #68b631;
+  text-transform: capitalize;
+  display: inline-flex;
+  padding: 10px 3px 3px 3px;
+  font-size: 15px;
+}
+
+.qr-box2:hover {
+  background-color: #68b631;
+  color: white;
+  transition: 0.5s;
+}
+
+.arrow-up {
+  width: 44px;
+  height: 44px;
+  background-color: #7f7f7f;
+  position: absolute;
+  bottom: 25%;
+  right: 2%;
+}
+.fas {
+  width: 100%;
+  height: 100%;
+  font-size: 44px;
+  color: white;
+  background-color: black;
+    border: solid 1px white;
+    transition: 0.5s;
+    padding-left: 15%;
+}
+.fas:hover{
+    color: black;
+    background-color: white;
+      border: solid 1px black;
+      transition: 0.5s;
+}
+.legal-right-box{
+    width: 80%;
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 8%;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #000000 !important;
+    border-radius: 25px !important;
+}
+.btn:hover{
+    background-color: rgb(34, 33, 33) !important;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
